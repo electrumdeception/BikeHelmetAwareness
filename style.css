@@ -61,27 +61,31 @@ li.top_menu {
 li a {
 	color: #36382E;
 }
+
 table{
 	margin-left: auto;
 	margin-right: auto;
 }
+
 a {
     display: block;
     padding: 4px;
 	text-decoration: none;
 }
+
 .top_menu a:hover{
     background-color: #FBF4F4;
     font-style:oblique;
 }
+
 #active{
 	color:ffffff;
    opacity: .5;
 }
+
 form{
 	width:100%;
-	display: inline-block;
-	font-size: 20px;
+	display:block;
 }
 @media screen and (max-width: 400px) {
   .top_menu {
